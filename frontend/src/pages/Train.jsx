@@ -11,6 +11,7 @@ const Train = ({ onModelTrained }) => {
   const [result, setResult] = useState(null);
   const [modelInfo, setModelInfo] = useState(null);
   const [error, setError] = useState(null);
+  const [testSize, setTestSize] = useState(0.2);
 
   useEffect(() => {
     loadModelInfo();
@@ -52,9 +53,9 @@ const Train = ({ onModelTrained }) => {
     setLogs([]);
 
     try {
-      addLog('info', 'Iniciando treinamento do modelo...');
+      addLog('info', `Iniciando treinamento do modelo... (test_size: ${testSize * 100}%)`);
       
-      const response = await trainModel(selectedFile);
+      const response = await trainModel(selectedFile, testSize);
       
       addLog('success', 'Treinamento concluído com sucesso!');
       addLog('info', `Versão do modelo: ${response.version}`);
@@ -100,6 +101,45 @@ const Train = ({ onModelTrained }) => {
             onFileSelect={handleFileSelect} 
             disabled={isTraining}
           />
+
+          {/* Test Size Selector */}
+          <div style={{ marginTop: '20px' }}>
+            <label style={{ 
+              display: 'block', 
+              marginBottom: '8px', 
+              fontWeight: 500,
+              color: 'var(--text-primary)'
+            }}>
+              Proporção Teste/Treino:
+            </label>
+            <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+              <input
+                type="range"
+                min="0.1"
+                max="0.5"
+                step="0.05"
+                value={testSize}
+                onChange={(e) => setTestSize(parseFloat(e.target.value))}
+                disabled={isTraining}
+                style={{ flex: 1 }}
+              />
+              <span style={{ 
+                minWidth: '50px', 
+                textAlign: 'right',
+                fontWeight: 600,
+                color: 'var(--accent)'
+              }}>
+                {Math.round(testSize * 100)}%
+              </span>
+            </div>
+            <p style={{ 
+              fontSize: '0.75rem', 
+              color: 'var(--text-secondary)',
+              marginTop: '4px'
+            }}>
+              Com {Math.round(testSize * 100)}% para teste, ~{Math.round(80 * (1 - testSize))} amostras para treino e ~{Math.round(80 * testSize)} para teste (com 80 dados)
+            </p>
+          </div>
           
           {selectedFile && (
             <div style={{ marginTop: '16px', padding: '12px', background: 'var(--background)', borderRadius: '8px' }}>

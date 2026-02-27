@@ -268,5 +268,5 @@ Para teste, o sistema deve funcionar com CSV no formato:
 csv
 freight_description,delay_label,route_variant_id,planned_departure_hour,traffic_level_forecast,rain_forecast_mm,cargo_weight_kg,vehicle_type,historical_avg_route_time_min,historical_delay_rate_route
 Frete Expresso Sul,atrasado,ROTA_001,8,alto,15.5,2500,Caminhão Baú,120,0.35
-Frete Normal Centro,em_tempo,ROTA_002,14,baixo,0.0,1800,Vanqua,90,0.12
+Frete Normal Centro,em_tempo,ROTA_002,14,baixo,0.0,1800,Van,90,0.12
 ...

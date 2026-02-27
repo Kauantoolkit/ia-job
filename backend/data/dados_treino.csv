@@ -1,81 +1,129 @@
-freight_description,delay_label,route_variant_id,planned_departure_hour,traffic_level_forecast,rain_forecast_mm,cargo_weight_kg,vehicle_type,historical_avg_route_time_min,historical_delay_rate_route
-Frete Expresso Sul,atrasado,ROTA_001,6,alto,25.0,1800,Caminhão Baú,120,0.65
-Frete Normal Centro,em_tempo,ROTA_002,14,baixo,0.0,2500,Vanqua,90,0.12
-Frete Urgente Leste,atrasado,ROTA_003,7,alto,18.0,2200,Caminhão Truck,105,0.72
-Frete Padrão Norte,em_tempo,ROTA_004,10,baixo,2.0,3200,Vanqua,85,0.08
-Frete Expresso Oeste,em_tempo,ROTA_005,6,alto,30.0,1500,Caminhão Baú,130,0.78
-Frete Normal Sul,em_tempo,ROTA_001,15,baixo,0.5,2800,Caminhão Truck,95,0.15
-Frete Rápido Centro,em_tempo,ROTA_002,11,medio,3.5,3500,Vanqua,88,0.18
-Frete Pesado Leste,em_tempo,ROTA_003,7,alto,22.0,2000,Caminhão Bitrem,145,0.82
-Frete Leve Norte,em_tempo,ROTA_004,16,baixo,1.0,3800,Vanqua,75,0.05
-Frete Standard Oeste,atrasado,ROTA_005,7,baixo,0.5,1700,Caminhão Baú,100,0.10
-Frete Expresso Centro,em_tempo,ROTA_002,14,baixo,0.0,3000,Vanqua,92,0.10
-Frete Normal Sul,atrasado,ROTA_001,6,alto,20.0,2400,Caminhão Truck,115,0.68
-Frete Urgente Norte,em_tempo,ROTA_004,14,baixo,2.5,2100,Vanqua,82,0.14
-Frete Rápido Leste,em_tempo,ROTA_003,6,alto,35.0,1600,Caminhão Baú,135,0.85
-Frete Padrão Oeste,em_tempo,ROTA_005,12,medio,4.0,2700,Caminhão Truck,98,0.20
-Frete Expresso Norte,em_tempo,ROTA_004,10,baixo,1.5,3300,Vanqua,86,0.11
-Frete Normal Centro,atrasado,ROTA_002,6,alto,22.0,1900,Caminhão Baú,110,0.75
-Frete Leve Sul,em_tempo,ROTA_001,15,baixo,0.3,3600,Vanqua,78,0.07
-Frete Pesado Leste,em_tempo,ROTA_003,7,baixo,1.0,2300,Caminhão Bitrem,150,0.15
-Frete Standard Norte,em_tempo,ROTA_004,11,medio,5.0,2000,Caminhão Truck,102,0.22
-Frete Expresso Oeste,em_tempo,ROTA_005,14,baixo,0.5,2800,Vanqua,91,0.13
-Frete Rápido Sul,atrasado,ROTA_001,6,alto,24.0,1700,Caminhão Baú,125,0.72
-Frete Normal Leste,em_tempo,ROTA_003,13,medio,3.5,2500,Caminhão Truck,95,0.17
-Frete Padrão Centro,atrasado,ROTA_002,7,alto,19.0,2200,Caminhão Baú,108,0.70
-Frete Expresso Norte,em_tempo,ROTA_004,16,baixo,1.0,3100,Vanqua,80,0.09
-Frete Urgente Oeste,em_tempo,ROTA_005,7,baixo,0.5,1800,Caminhão Truck,128,0.12
-Frete Leve Centro,em_tempo,ROTA_002,12,baixo,0.5,3400,Vanqua,76,0.06
-Frete Normal Sul,atrasado,ROTA_001,7,alto,16.0,2100,Caminhão Baú,112,0.62
-Frete Standard Leste,em_tempo,ROTA_003,14,baixo,2.0,2600,Caminhão Truck,94,0.16
-Frete Expresso Norte,em_tempo,ROTA_004,10,baixo,0.0,2900,Vanqua,84,0.10
-Frete Pesado Sul,atrasado,ROTA_001,7,baixo,1.5,2400,Caminhão Bitrem,142,0.20
-Frete Padrão Oeste,em_tempo,ROTA_005,15,medio,4.0,2300,Caminhão Truck,100,0.21
-Frete Normal Norte,em_tempo,ROTA_004,11,baixo,1.5,2700,Vanqua,87,0.12
-Frete Expresso Leste,em_tempo,ROTA_003,7,baixo,0.5,1900,Caminhão Baú,122,0.08
-Frete Leve Oeste,em_tempo,ROTA_005,13,baixo,0.2,3500,Vanqua,74,0.04
-Frete Standard Centro,em_tempo,ROTA_002,14,baixo,0.7,3200,Vanqua,83,0.08
-Frete Urgente Sul,atrasado,ROTA_001,7,alto,29.0,2000,Caminhão Truck,132,0.82
-Frete Rápido Norte,em_tempo,ROTA_004,12,medio,3.0,2500,Caminhão Truck,97,0.19
-Frete Normal Oeste,atrasado,ROTA_005,7,alto,18.0,2100,Caminhão Baú,106,0.65
-Frete Expresso Centro,em_tempo,ROTA_002,15,baixo,1.0,2800,Vanqua,85,0.11
-Frete Padrão Sul,em_tempo,ROTA_001,11,medio,5.5,2300,Caminhão Truck,99,0.23
-Frete Pesado Norte,atrasado,ROTA_004,7,baixo,0.8,2600,Caminhão Bitrem,148,0.18
-Frete Leve Leste,em_tempo,ROTA_003,14,baixo,0.4,3700,Vanqua,72,0.03
-Frete Standard Oeste,em_tempo,ROTA_005,16,baixo,0.9,3000,Vanqua,88,0.13
-Frete Expresso Sul,atrasado,ROTA_001,7,alto,23.0,1800,Caminhão Baú,124,0.70
-Frete Urgente Centro,atrasado,ROTA_002,7,alto,24.0,2400,Caminhão Truck,122,0.72
-Frete Pesado Oeste,atrasado,ROTA_005,6,alto,22.5,3100,Caminhão Bitrem,155,0.74
-Frete Expresso Leste,atrasado,ROTA_003,7,alto,12.0,1750,Caminhão Baú,118,0.68
-Frete Leve Centro,em_tempo,ROTA_002,10,medio,2.5,3300,Vanqua,79,0.14
-Frete Rápido Sul,em_tempo,ROTA_001,14,baixo,0.0,2900,Caminhão Truck,92,0.18
-Frete Standard Norte,atrasado,ROTA_004,6,alto,19.0,2100,Caminhão Baú,115,0.60
-Frete Urgente Oeste,em_tempo,ROTA_005,11,baixo,0.0,1900,Vanqua,85,0.09
-Frete Pesado Centro,atrasado,ROTA_002,7,alto,31.0,2500,Caminhão Bitrem,158,0.88
-Frete Normal Leste,em_tempo,ROTA_003,16,baixo,1.5,2700,Caminhão Truck,90,0.15
-Frete Expresso Sul,em_tempo,ROTA_001,10,medio,4.5,1850,Vanqua,81,0.22
-Frete Padrão Centro,em_tempo,ROTA_002,13,baixo,0.0,2400,Caminhão Truck,88,0.12
-Frete Rápido Norte,atrasado,ROTA_004,8,alto,14.5,2200,Caminhão Baú,122,0.55
-Frete Leve Leste,em_tempo,ROTA_003,15,baixo,0.8,3850,Vanqua,70,0.04
-Frete Urgente Sul,atrasado,ROTA_001,6,alto,27.0,1950,Caminhão Baú,130,0.80
-Frete Standard Oeste,em_tempo,ROTA_005,14,medio,3.0,2650,Caminhão Truck,96,0.19
-Frete Noturno Sul,em_tempo,ROTA_001,2,baixo,0.0,3100,Caminhão Truck,85,0.05
-Frete Pico Tarde Oeste,atrasado,ROTA_005,17,alto,8.5,2400,Caminhão Baú,145,0.76
-Frete Chuva Torrencial Norte,atrasado,ROTA_004,10,medio,45.0,2800,Vanqua,120,0.68
-Frete Madrugada Leste,em_tempo,ROTA_003,3,baixo,0.0,1500,Caminhão Baú,105,0.04
-Frete Carga Máxima Centro,atrasado,ROTA_002,9,alto,2.0,3950,Caminhão Truck,130,0.55
-Frete Expresso Sul,em_tempo,ROTA_001,11,baixo,0.0,1200,Vanqua,75,0.12
-Frete Padrão Leste,atrasado,ROTA_003,18,alto,5.0,2600,Caminhão Bitrem,180,0.85
-Frete Rápido Oeste,em_tempo,ROTA_005,10,baixo,1.2,1900,Vanqua,88,0.15
-Frete Industrial Norte,em_tempo,ROTA_004,21,baixo,0.0,3500,Caminhão Bitrem,135,0.22
-Frete Urbano Centro,atrasado,ROTA_002,17,alto,12.0,2100,Caminhão Baú,125,0.70
-Frete Leve Sul,em_tempo,ROTA_001,13,baixo,0.0,800,Vanqua,70,0.03
-Frete Pesado Oeste,atrasado,ROTA_005,7,alto,15.5,3800,Caminhão Bitrem,175,0.82
-Frete Standard Norte,em_tempo,ROTA_004,14,medio,0.0,2500,Caminhão Truck,95,0.18
-Frete Urgente Leste,atrasado,ROTA_003,8,alto,20.0,2000,Caminhão Baú,140,0.79
-Frete Econômico Sul,em_tempo,ROTA_001,22,baixo,0.5,3200,Caminhão Truck,92,0.08
-Frete Express Centro,em_tempo,ROTA_002,11,baixo,0.0,1600,Vanqua,80,0.09
-Frete Logística Norte,atrasado,ROTA_004,18,alto,3.5,2900,Caminhão Baú,130,0.62
-Frete Padrão Oeste,em_tempo,ROTA_005,4,baixo,0.0,2700,Caminhão Truck,102,0.10
-Frete Distribuição Leste,em_tempo,ROTA_003,10,medio,1.5,2300,Vanqua,98,0.14
-Frete Especial Sul,atrasado,ROTA_001,7,alto,32.0,2500,Caminhão Truck,150,0.88
+freight_description,delay_label,route_variant_id,planned_departure_hour,traffic_level_forecast,rain_forecast_mm,cargo_weight_kg,vehicle_type,historical_avg_route_time_min,driver_experience_years,vehicle_age_years,delivery_urgency
+Frete Expresso Sul,atrasado,ROTA_001,7,alto,15.0,1800,Caminhão Baú,120,2,5,alta
+Frete Normal Centro,em_tempo,ROTA_002,14,baixo,0.0,2500,Van,90,5,2,media
+Frete Urgente Leste,atrasado,ROTA_003,8,medio,8.0,2200,Caminhão Truck,105,1,8,alta
+Frete Padrão Norte,em_tempo,ROTA_004,10,baixo,2.0,3200,Van,85,4,3,baixa
+Frete Expresso Oeste,em_tempo,ROTA_005,11,medio,5.0,1500,Caminhão Baú,130,3,4,media
+Frete Normal Sul,atrasado,ROTA_001,17,alto,12.0,2800,Caminhão Truck,95,1,6,baixa
+Frete Rápido Centro,em_tempo,ROTA_002,9,baixo,0.5,3500,Van,88,6,1,media
+Frete Pesado Leste,em_tempo,ROTA_003,6,alto,20.0,2000,Caminhão Bitrem,145,2,7,baixa
+Frete Leve Norte,em_tempo,ROTA_004,16,baixo,1.0,3800,Van,75,7,2,baixa
+Frete Standard Oeste,atrasado,ROTA_005,8,medio,3.5,1700,Caminhão Baú,100,1,4,media
+Frete Expresso Centro,em_tempo,ROTA_002,12,baixo,0.0,3000,Van,92,4,3,alta
+Frete Normal Sul,atrasado,ROTA_001,18,alto,18.0,2400,Caminhão Truck,115,2,5,media
+Frete Urgente Norte,em_tempo,ROTA_004,13,baixo,2.5,2100,Van,82,5,2,alta
+Frete Rápido Leste,atrasado,ROTA_003,7,alto,25.0,1600,Caminhão Baú,135,1,6,alta
+Frete Padrão Oeste,em_tempo,ROTA_005,10,baixo,4.0,2700,Caminhão Truck,98,3,4,baixa
+Frete Expresso Norte,em_tempo,ROTA_004,15,baixo,1.5,3300,Van,86,6,1,media
+Frete Normal Centro,atrasado,ROTA_002,19,alto,22.0,1900,Caminhão Baú,110,1,7,alta
+Frete Leve Sul,em_tempo,ROTA_001,9,baixo,0.3,3600,Van,78,5,2,baixa
+Frete Pesado Leste,em_tempo,ROTA_003,14,medio,1.0,2300,Caminhão Bitrem,150,4,5,baixa
+Frete Standard Norte,em_tempo,ROTA_004,11,medio,5.0,2000,Caminhão Truck,102,3,3,media
+Frete Expresso Oeste,em_tempo,ROTA_005,16,baixo,0.5,2800,Van,91,6,2,media
+Frete Rápido Sul,atrasado,ROTA_001,7,alto,30.0,1700,Caminhão Baú,125,1,8,alta
+Frete Normal Leste,em_tempo,ROTA_003,13,baixo,3.5,2500,Caminhão Truck,95,4,4,baixa
+Frete Padrão Centro,atrasado,ROTA_002,8,alto,19.0,2200,Caminhão Baú,108,2,6,media
+Frete Expresso Norte,em_tempo,ROTA_004,10,baixo,1.0,3100,Van,80,5,1,baixa
+Frete Urgente Oeste,em_tempo,ROTA_005,12,baixo,0.5,1800,Caminhão Truck,128,7,3,alta
+Frete Leve Centro,em_tempo,ROTA_002,15,baixo,0.5,3400,Van,76,6,2,baixa
+Frete Normal Sul,atrasado,ROTA_001,6,alto,35.0,2100,Caminhão Baú,112,1,9,alta
+Frete Standard Leste,em_tempo,ROTA_003,14,baixo,2.0,2600,Caminhão Truck,94,4,4,baixa
+Frete Expresso Norte,em_tempo,ROTA_004,9,baixo,0.0,2900,Van,84,5,1,media
+Frete Pesado Sul,atrasado,ROTA_001,17,medio,8.0,2400,Caminhão Bitrem,142,2,7,media
+Frete Padrão Oeste,em_tempo,ROTA_005,11,baixo,4.0,2300,Caminhão Truck,100,3,5,baixa
+Frete Normal Norte,em_tempo,ROTA_004,13,baixo,1.5,2700,Van,87,6,2,baixa
+Frete Expresso Leste,em_tempo,ROTA_003,16,baixo,0.5,1900,Caminhão Baú,122,5,3,media
+Frete Leve Oeste,em_tempo,ROTA_005,14,baixo,0.2,3500,Van,74,7,1,baixa
+Frete Standard Centro,em_tempo,ROTA_002,10,baixo,0.7,3200,Van,83,4,2,baixa
+Frete Urgente Sul,atrasado,ROTA_001,8,alto,28.0,2000,Caminhão Truck,132,1,8,alta
+Frete Rápido Norte,em_tempo,ROTA_004,12,medio,3.0,2500,Caminhão Truck,97,3,4,media
+Frete Normal Oeste,atrasado,ROTA_005,18,alto,16.0,2100,Caminhão Baú,106,2,6,alta
+Frete Expresso Centro,em_tempo,ROTA_002,9,baixo,1.0,2800,Van,85,5,2,media
+Frete Padrão Sul,em_tempo,ROTA_001,11,medio,5.5,2300,Caminhão Truck,99,4,3,baixa
+Frete Pesado Norte,atrasado,ROTA_004,19,alto,10.0,2600,Caminhão Bitrem,148,1,7,media
+Frete Leve Leste,em_tempo,ROTA_003,15,baixo,0.4,3700,Van,72,6,1,baixa
+Frete Standard Oeste,em_tempo,ROTA_005,13,baixo,0.9,3000,Van,88,5,2,baixa
+Frete Expresso Sul,atrasado,ROTA_001,7,alto,23.0,1800,Caminhão Baú,124,2,5,alta
+Frete Urgente Centro,atrasado,ROTA_002,6,alto,24.0,2400,Caminhão Truck,122,1,9,alta
+Frete Pesado Oeste,atrasado,ROTA_005,8,alto,22.5,3100,Caminhão Bitrem,155,2,8,alta
+Frete Expresso Leste,atrasado,ROTA_003,17,medio,12.0,1750,Caminhão Baú,118,1,6,media
+Frete Leve Centro,em_tempo,ROTA_002,14,baixo,2.5,3300,Van,79,4,3,baixa
+Frete Rápido Sul,em_tempo,ROTA_001,10,baixo,0.0,2900,Caminhão Truck,92,5,4,baixa
+Frete Standard Norte,atrasado,ROTA_004,19,alto,19.0,2100,Caminhão Baú,115,1,7,alta
+Frete Urgente Oeste,em_tempo,ROTA_005,11,baixo,0.0,1900,Van,85,6,2,alta
+Frete Pesado Centro,atrasado,ROTA_002,7,alto,31.0,2500,Caminhão Bitrem,158,1,10,alta
+Frete Normal Leste,em_tempo,ROTA_003,16,baixo,1.5,2700,Caminhão Truck,90,4,4,baixa
+Frete Expresso Sul,em_tempo,ROTA_001,12,medio,4.5,1850,Van,81,3,3,media
+Frete Padrão Centro,em_tempo,ROTA_002,13,baixo,0.0,2400,Caminhão Truck,88,5,2,baixa
+Frete Rápido Norte,atrasado,ROTA_004,18,alto,14.5,2200,Caminhão Baú,122,2,6,alta
+Frete Leve Leste,em_tempo,ROTA_003,15,baixo,0.8,3850,Van,70,7,1,baixa
+Frete Urgente Sul,atrasado,ROTA_001,6,alto,27.0,1950,Caminhão Baú,130,1,8,alta
+Frete Standard Oeste,em_tempo,ROTA_005,14,medio,3.0,2650,Caminhão Truck,96,4,3,baixa
+Frete Noturno Sul,em_tempo,ROTA_001,2,baixo,0.0,3100,Caminhão Truck,85,3,5,baixa
+Frete Pico Tarde Oeste,atrasado,ROTA_005,17,alto,8.5,2400,Caminhão Baú,145,2,7,media
+Frete Chuva Torrencial Norte,atrasado,ROTA_004,10,medio,45.0,2800,Van,120,1,4,alta
+Frete Madrugada Leste,em_tempo,ROTA_003,3,baixo,0.0,1500,Caminhão Baú,105,5,6,baixa
+Frete Carga Máxima Centro,atrasado,ROTA_002,9,alto,2.0,3950,Caminhão Truck,130,2,5,media
+Frete Expresso Sul,em_tempo,ROTA_001,11,baixo,0.0,1200,Van,75,6,1,media
+Frete Padrão Leste,atrasado,ROTA_003,18,alto,5.0,2600,Caminhão Bitrem,180,1,9,alta
+Frete Rápido Oeste,em_tempo,ROTA_005,10,baixo,1.2,1900,Van,88,5,2,baixa
+Frete Industrial Norte,em_tempo,ROTA_004,21,baixo,0.0,3500,Caminhão Bitrem,135,4,4,baixa
+Frete Urbano Centro,atrasado,ROTA_002,17,alto,12.0,2100,Caminhão Baú,125,2,6,media
+Frete Leve Sul,em_tempo,ROTA_001,13,baixo,0.0,800,Van,70,7,1,baixa
+Frete Pesado Oeste,atrasado,ROTA_005,7,alto,15.5,3800,Caminhão Bitrem,175,1,8,alta
+Frete Standard Norte,em_tempo,ROTA_004,14,medio,0.0,2500,Caminhão Truck,95,3,3,baixa
+Frete Urgente Leste,atrasado,ROTA_003,8,alto,20.0,2000,Caminhão Baú,140,2,7,alta
+Frete Econômico Sul,em_tempo,ROTA_001,22,baixo,0.5,3200,Caminhão Truck,92,6,2,baixa
+Frete Express Centro,em_tempo,ROTA_002,11,baixo,0.0,1600,Van,80,5,1,media
+Frete Logística Norte,atrasado,ROTA_004,18,alto,3.5,2900,Caminhão Baú,130,2,5,media
+Frete Padrão Oeste,em_tempo,ROTA_005,4,baixo,0.0,2700,Caminhão Truck,102,4,3,baixa
+Frete Distribuição Leste,em_tempo,ROTA_003,10,medio,1.5,2300,Van,98,5,2,baixa
+Frete Especial Sul,atrasado,ROTA_001,7,alto,32.0,2500,Caminhão Truck,150,1,8,alta
+Frete Expresso 2 Sul,em_tempo,ROTA_001,14,baixo,0.0,2000,Van,95,4,2,media
+Frete Normal 2 Centro,atrasado,ROTA_002,8,alto,18.0,2600,Caminhão Truck,115,2,6,alta
+Frete Rápido 2 Leste,em_tempo,ROTA_003,11,medio,2.0,2100,Caminhão Baú,100,3,4,baixa
+Frete Padrão 2 Norte,em_tempo,ROTA_004,16,baixo,1.0,3000,Van,85,5,1,baixa
+Frete Standard 2 Oeste,atrasado,ROTA_005,7,alto,25.0,1900,Caminhão Baú,135,1,7,alta
+Frete Leve 2 Sul,em_tempo,ROTA_001,9,baixo,0.5,3400,Van,80,6,2,baixa
+Frete Pesado 2 Leste,em_tempo,ROTA_003,15,baixo,0.0,3700,Caminhão Bitrem,145,4,5,baixa
+Frete Urgente 2 Norte,em_tempo,ROTA_004,12,baixo,2.0,2200,Van,90,5,3,alta
+Frete Expresso 3 Centro,atrasado,ROTA_002,6,alto,28.0,2300,Caminhão Truck,125,1,8,alta
+Frete Normal 3 Sul,em_tempo,ROTA_001,13,baixo,0.0,2800,Van,88,6,1,baixa
+Frete Rápido 3 Oeste,em_tempo,ROTA_005,14,baixo,1.0,1700,Caminhão Baú,105,5,2,media
+Frete Padrão 3 Leste,atrasado,ROTA_003,19,alto,15.0,2500,Caminhão Truck,140,2,6,alta
+Frete Standard 3 Norte,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,4,3,baixa
+Frete Leve 3 Centro,em_tempo,ROTA_002,11,baixo,0.0,3500,Van,78,7,1,baixa
+Frete Pesado 3 Sul,atrasado,ROTA_001,8,alto,22.0,3600,Caminhão Bitrem,155,1,9,alta
+Frete Urgente 3 Oeste,em_tempo,ROTA_005,16,baixo,0.0,2000,Caminhão Truck,98,5,2,alta
+Frete Expresso 4 Norte,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,2,7,alta
+Frete Normal 4 Leste,em_tempo,ROTA_003,14,baixo,1.5,2700,Caminhão Truck,95,4,4,baixa
+Frete Rápido 4 Centro,em_tempo,ROTA_002,10,baixo,0.0,2900,Van,85,6,1,media
+Frete Padrão 4 Sul,atrasado,ROTA_001,18,alto,12.0,2100,Caminhão Baú,120,2,5,media
+Frete Standard 4 Oeste,em_tempo,ROTA_005,12,baixo,0.5,1800,Van,92,5,2,baixa
+Frete Leve 4 Norte,em_tempo,ROTA_004,15,baixo,0.0,3300,Van,80,6,1,baixa
+Frete Pesado 4 Centro,atrasado,ROTA_002,6,alto,30.0,3800,Caminhão Bitrem,160,1,10,alta
+Frete Urgente 4 Sul,em_tempo,ROTA_001,13,baixo,0.0,1900,Caminhão Truck,105,4,3,alta
+Frete Expresso 5 Leste,em_tempo,ROTA_003,11,baixo,2.0,2200,Caminhão Baú,98,5,2,media
+Frete Normal 5 Oeste,atrasado,ROTA_005,8,alto,18.0,2500,Caminhão Truck,125,2,6,alta
+Frete Rápido 5 Norte,em_tempo,ROTA_004,14,baixo,0.5,2000,Van,88,6,1,baixa
+Frete Padrão 5 Centro,em_tempo,ROTA_002,10,baixo,0.0,2800,Caminhão Truck,92,4,4,baixa
+Frete Standard 5 Sul,atrasado,ROTA_001,17,alto,14.0,2300,Caminhão Baú,135,1,7,alta
+Frete Leve 5 Leste,em_tempo,ROTA_003,16,baixo,0.0,3400,Van,75,7,2,baixa
+Frete Pesado 5 Norte,atrasado,ROTA_004,7,alto,28.0,3900,Caminhão Bitrem,165,2,8,alta
+Frete Urgente 5 Centro,em_tempo,ROTA_002,12,baixo,1.0,2100,Van,90,5,3,alta
+Frete Expresso 6 Sul,em_tempo,ROTA_001,9,baixo,0.0,2600,Caminhão Baú,100,6,2,media
+Frete Normal 6 Oeste,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Truck,130,2,6,media
+Frete Rápido 6 Leste,em_tempo,ROTA_003,13,baixo,0.5,1900,Caminhão Baú,108,5,3,baixa
+Frete Padrão 6 Norte,em_tempo,ROTA_004,11,baixo,0.0,3000,Van,85,4,1,baixa
+Frete Standard 6 Centro,atrasado,ROTA_002,6,alto,35.0,2200,Caminhão Truck,140,1,9,alta
+Frete Leve 6 Sul,em_tempo,ROTA_001,14,baixo,0.0,3200,Van,78,7,1,baixa
+Frete Pesado 6 Oeste,atrasado,ROTA_005,8,alto,25.0,3700,Caminhão Bitrem,155,1,8,alta
+Frete Urgente 6 Norte,em_tempo,ROTA_004,15,baixo,1.0,2000,Van,92,5,2,alta
+Frete Expresso 7 Centro,atrasado,ROTA_002,7,alto,22.0,2300,Caminhão Baú,128,2,7,alta
+Frete Normal 7 Sul,em_tempo,ROTA_001,12,baixo,0.0,2700,Van,88,6,1,baixa
+Frete Rápido 7 Leste,em_tempo,ROTA_003,16,baixo,2.0,2100,Caminhão Truck,98,4,4,baixa
+Frete Padrão 7 Oeste,atrasado,ROTA_005,18,alto,10.0,2500,Caminhão Baú,135,2,5,media
+Frete Standard 7 Norte,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,5,2,baixa
+Frete Leve 7 Centro,em_tempo,ROTA_002,13,baixo,0.0,3400,Van,76,7,1,baixa
+Frete Pesado 7 Sul,atrasado,ROTA_001,6,alto,32.0,3800,Caminhão Bitrem,160,1,9,alta
+Frete Urgente 7 Leste,em_tempo,ROTA_003,14,baixo,0.0,2000,Caminhão Truck,102,4,3,alta

@@ -32,12 +32,15 @@ REQUIRED_COLUMNS = [
     "cargo_weight_kg",
     "vehicle_type",
     "historical_avg_route_time_min",
-    "historical_delay_rate_route"
+    "driver_experience_years",
+    "vehicle_age_years",
+    "delivery_urgency"
 ]
 
 # Valores válidos
 VALID_TRAFFIC_LEVELS = ["baixo", "medio", "alto"]
 VALID_DELAY_LABELS = ["atrasado", "em_tempo"]
+VALID_DELIVERY_URGENCY = ["baixa", "media", "alta"]
 
 # Configurações do RandomForest
 RANDOM_FOREST_PARAMS = {

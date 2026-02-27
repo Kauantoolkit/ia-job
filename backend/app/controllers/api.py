@@ -50,18 +50,27 @@ async def get_model_info():
 
 @router.post("/train")
 async def train_model(
-    file: UploadFile = File(..., description="Arquivo CSV com dados de treino")
+    file: UploadFile = File(..., description="Arquivo CSV com dados de treino"),
+    test_size: float = Form(1, description="Proporção dos dados para teste (0.1 a 0.5)")
 ):
     """
     Treina o modelo com os dados fornecidos
     
     Args:
         file: Arquivo CSV com os dados
+        test_size: Proporção dos dados para teste (padrão: 0.2 = 20%)
         
     Returns:
         Métricas do modelo treinado
     """
-    logger.info(f"Iniciando treino com arquivo: {file.filename}")
+    # Validar test_size
+    if test_size < 0.1 or test_size > 0.5:
+        raise HTTPException(
+            status_code=400,
+            detail="test_size deve estar entre 0.1 (10%) e 0.5 (50%)"
+        )
+    
+    logger.info(f"Iniciando treino com arquivo: {file.filename}, test_size: {test_size}")
     
     try:
         # Ler arquivo CSV
@@ -71,8 +80,8 @@ async def train_model(
         logger.info(f"Dados carregados: {len(df)} linhas, {len(df.columns)} colunas")
         logger.info(f"Colunas: {list(df.columns)}")
         
-        # Treinar modelo
-        result = predictor.train(df)
+        # Treinar modelo com test_size customizado
+        result = predictor.train(df, test_size=test_size)
         
         # Salvar modelo
         model_path = predictor.save()
@@ -98,18 +107,27 @@ async def train_model(
 
 @router.post("/retrain")
 async def retrain_model(
-    file: UploadFile = File(..., description="Arquivo CSV com novos dados")
+    file: UploadFile = File(..., description="Arquivo CSV com novos dados"),
+    test_size: float = Form(0.2, description="Proporção dos dados para teste (0.1 a 0.5)")
 ):
     """
     Re-treina o modelo com novos dados
     
     Args:
         file: Arquivo CSV com dados adicionais
+        test_size: Proporção dos dados para teste (padrão: 0.2 = 20%)
         
     Returns:
         Métricas do modelo re-treinado
     """
-    logger.info(f"Iniciando re-treino com arquivo: {file.filename}")
+    # Validar test_size
+    if test_size < 0.1 or test_size > 0.5:
+        raise HTTPException(
+            status_code=400,
+            detail="test_size deve estar entre 0.1 (10%) e 0.5 (50%)"
+        )
+    
+    logger.info(f"Iniciando re-treino com arquivo: {file.filename}, test_size: {test_size}")
     
     if not predictor.is_trained:
         raise HTTPException(
@@ -124,8 +142,8 @@ async def retrain_model(
         
         logger.info(f"Dados carregados: {len(df)} linhas")
         
-        # Re-treinar modelo (usando todos os dados para treino final após validação)
-        result = predictor.train(df)
+        # Re-treinar modelo com test_size customizado
+        result = predictor.train(df, test_size=test_size)
         
         # Salvar modelo
         model_path = predictor.save()

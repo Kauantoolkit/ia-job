@@ -95,11 +95,18 @@ class CSVValidator:
                     "historical_avg_route_time_min deve ser numérico (float)"
                 )
         
-        # historical_delay_rate_route deve ser numérico
-        if "historical_delay_rate_route" in df.columns:
-            if not pd.api.types.is_numeric_dtype(df["historical_delay_rate_route"]):
+        # driver_experience_years deve ser numérico
+        if "driver_experience_years" in df.columns:
+            if not pd.api.types.is_numeric_dtype(df["driver_experience_years"]):
                 self.errors.append(
-                    "historical_delay_rate_route deve ser numérico (float)"
+                    "driver_experience_years deve ser numérico (int)"
+                )
+        
+        # vehicle_age_years deve ser numérico
+        if "vehicle_age_years" in df.columns:
+            if not pd.api.types.is_numeric_dtype(df["vehicle_age_years"]):
+                self.errors.append(
+                    "vehicle_age_years deve ser numérico (int)"
                 )
     
     def _validate_values(self, df: pd.DataFrame):
@@ -135,7 +142,9 @@ class CSVValidator:
             "cargo_weight_kg",
             "vehicle_type",
             "historical_avg_route_time_min",
-            "historical_delay_rate_route"
+            "driver_experience_years",
+            "vehicle_age_years",
+            "delivery_urgency"
         ]
         
         for col in required_cols_no_null:
@@ -186,7 +195,8 @@ def validate_prediction_input(data: Dict[str, Any]) -> Tuple[bool, List[str]]:
         "rain_forecast_mm",
         "cargo_weight_kg",
         "historical_avg_route_time_min",
-        "historical_delay_rate_route"
+        "driver_experience_years",
+        "vehicle_age_years"
     ]
     
     for field in numeric_fields:

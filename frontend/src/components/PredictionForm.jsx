@@ -112,7 +112,7 @@ const PredictionForm = ({ onSubmit, isLoading, isModelTrained }) => {
             <option value="Caminhão Baú">Caminhão Baú</option>
             <option value="Caminhão Truck">Caminhão Truck</option>
             <option value="Caminhão Bitrem">Caminhão Bitrem</option>
-            <option value="Vanqua">Vanqua</option>
+            <option value="Van">Van</option>
           </select>
         </div>
       </div>

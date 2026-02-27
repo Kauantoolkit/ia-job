@@ -23,9 +23,10 @@ export const getModelInfo = async () => {
 };
 
 // Train model
-export const trainModel = async (file) => {
+export const trainModel = async (file, testSize = 0.2) => {
   const formData = new FormData();
   formData.append('file', file);
+  formData.append('test_size', testSize);
   
   const response = await api.post('/api/train', formData, {
     headers: {
