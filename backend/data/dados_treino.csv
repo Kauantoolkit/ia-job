@@ -1,129 +1,460 @@
-freight_description,delay_label,route_variant_id,planned_departure_hour,traffic_level_forecast,rain_forecast_mm,cargo_weight_kg,vehicle_type,historical_avg_route_time_min,driver_experience_years,vehicle_age_years,delivery_urgency
-Frete Expresso Sul,atrasado,ROTA_001,7,alto,15.0,1800,Caminhão Baú,120,2,5,alta
-Frete Normal Centro,em_tempo,ROTA_002,14,baixo,0.0,2500,Van,90,5,2,media
-Frete Urgente Leste,atrasado,ROTA_003,8,medio,8.0,2200,Caminhão Truck,105,1,8,alta
-Frete Padrão Norte,em_tempo,ROTA_004,10,baixo,2.0,3200,Van,85,4,3,baixa
-Frete Expresso Oeste,em_tempo,ROTA_005,11,medio,5.0,1500,Caminhão Baú,130,3,4,media
-Frete Normal Sul,atrasado,ROTA_001,17,alto,12.0,2800,Caminhão Truck,95,1,6,baixa
-Frete Rápido Centro,em_tempo,ROTA_002,9,baixo,0.5,3500,Van,88,6,1,media
-Frete Pesado Leste,em_tempo,ROTA_003,6,alto,20.0,2000,Caminhão Bitrem,145,2,7,baixa
-Frete Leve Norte,em_tempo,ROTA_004,16,baixo,1.0,3800,Van,75,7,2,baixa
-Frete Standard Oeste,atrasado,ROTA_005,8,medio,3.5,1700,Caminhão Baú,100,1,4,media
-Frete Expresso Centro,em_tempo,ROTA_002,12,baixo,0.0,3000,Van,92,4,3,alta
-Frete Normal Sul,atrasado,ROTA_001,18,alto,18.0,2400,Caminhão Truck,115,2,5,media
-Frete Urgente Norte,em_tempo,ROTA_004,13,baixo,2.5,2100,Van,82,5,2,alta
-Frete Rápido Leste,atrasado,ROTA_003,7,alto,25.0,1600,Caminhão Baú,135,1,6,alta
-Frete Padrão Oeste,em_tempo,ROTA_005,10,baixo,4.0,2700,Caminhão Truck,98,3,4,baixa
-Frete Expresso Norte,em_tempo,ROTA_004,15,baixo,1.5,3300,Van,86,6,1,media
-Frete Normal Centro,atrasado,ROTA_002,19,alto,22.0,1900,Caminhão Baú,110,1,7,alta
-Frete Leve Sul,em_tempo,ROTA_001,9,baixo,0.3,3600,Van,78,5,2,baixa
-Frete Pesado Leste,em_tempo,ROTA_003,14,medio,1.0,2300,Caminhão Bitrem,150,4,5,baixa
-Frete Standard Norte,em_tempo,ROTA_004,11,medio,5.0,2000,Caminhão Truck,102,3,3,media
-Frete Expresso Oeste,em_tempo,ROTA_005,16,baixo,0.5,2800,Van,91,6,2,media
-Frete Rápido Sul,atrasado,ROTA_001,7,alto,30.0,1700,Caminhão Baú,125,1,8,alta
-Frete Normal Leste,em_tempo,ROTA_003,13,baixo,3.5,2500,Caminhão Truck,95,4,4,baixa
-Frete Padrão Centro,atrasado,ROTA_002,8,alto,19.0,2200,Caminhão Baú,108,2,6,media
-Frete Expresso Norte,em_tempo,ROTA_004,10,baixo,1.0,3100,Van,80,5,1,baixa
-Frete Urgente Oeste,em_tempo,ROTA_005,12,baixo,0.5,1800,Caminhão Truck,128,7,3,alta
-Frete Leve Centro,em_tempo,ROTA_002,15,baixo,0.5,3400,Van,76,6,2,baixa
-Frete Normal Sul,atrasado,ROTA_001,6,alto,35.0,2100,Caminhão Baú,112,1,9,alta
-Frete Standard Leste,em_tempo,ROTA_003,14,baixo,2.0,2600,Caminhão Truck,94,4,4,baixa
-Frete Expresso Norte,em_tempo,ROTA_004,9,baixo,0.0,2900,Van,84,5,1,media
-Frete Pesado Sul,atrasado,ROTA_001,17,medio,8.0,2400,Caminhão Bitrem,142,2,7,media
-Frete Padrão Oeste,em_tempo,ROTA_005,11,baixo,4.0,2300,Caminhão Truck,100,3,5,baixa
-Frete Normal Norte,em_tempo,ROTA_004,13,baixo,1.5,2700,Van,87,6,2,baixa
-Frete Expresso Leste,em_tempo,ROTA_003,16,baixo,0.5,1900,Caminhão Baú,122,5,3,media
-Frete Leve Oeste,em_tempo,ROTA_005,14,baixo,0.2,3500,Van,74,7,1,baixa
-Frete Standard Centro,em_tempo,ROTA_002,10,baixo,0.7,3200,Van,83,4,2,baixa
-Frete Urgente Sul,atrasado,ROTA_001,8,alto,28.0,2000,Caminhão Truck,132,1,8,alta
-Frete Rápido Norte,em_tempo,ROTA_004,12,medio,3.0,2500,Caminhão Truck,97,3,4,media
-Frete Normal Oeste,atrasado,ROTA_005,18,alto,16.0,2100,Caminhão Baú,106,2,6,alta
-Frete Expresso Centro,em_tempo,ROTA_002,9,baixo,1.0,2800,Van,85,5,2,media
-Frete Padrão Sul,em_tempo,ROTA_001,11,medio,5.5,2300,Caminhão Truck,99,4,3,baixa
-Frete Pesado Norte,atrasado,ROTA_004,19,alto,10.0,2600,Caminhão Bitrem,148,1,7,media
-Frete Leve Leste,em_tempo,ROTA_003,15,baixo,0.4,3700,Van,72,6,1,baixa
-Frete Standard Oeste,em_tempo,ROTA_005,13,baixo,0.9,3000,Van,88,5,2,baixa
-Frete Expresso Sul,atrasado,ROTA_001,7,alto,23.0,1800,Caminhão Baú,124,2,5,alta
-Frete Urgente Centro,atrasado,ROTA_002,6,alto,24.0,2400,Caminhão Truck,122,1,9,alta
-Frete Pesado Oeste,atrasado,ROTA_005,8,alto,22.5,3100,Caminhão Bitrem,155,2,8,alta
-Frete Expresso Leste,atrasado,ROTA_003,17,medio,12.0,1750,Caminhão Baú,118,1,6,media
-Frete Leve Centro,em_tempo,ROTA_002,14,baixo,2.5,3300,Van,79,4,3,baixa
-Frete Rápido Sul,em_tempo,ROTA_001,10,baixo,0.0,2900,Caminhão Truck,92,5,4,baixa
-Frete Standard Norte,atrasado,ROTA_004,19,alto,19.0,2100,Caminhão Baú,115,1,7,alta
-Frete Urgente Oeste,em_tempo,ROTA_005,11,baixo,0.0,1900,Van,85,6,2,alta
-Frete Pesado Centro,atrasado,ROTA_002,7,alto,31.0,2500,Caminhão Bitrem,158,1,10,alta
-Frete Normal Leste,em_tempo,ROTA_003,16,baixo,1.5,2700,Caminhão Truck,90,4,4,baixa
-Frete Expresso Sul,em_tempo,ROTA_001,12,medio,4.5,1850,Van,81,3,3,media
-Frete Padrão Centro,em_tempo,ROTA_002,13,baixo,0.0,2400,Caminhão Truck,88,5,2,baixa
-Frete Rápido Norte,atrasado,ROTA_004,18,alto,14.5,2200,Caminhão Baú,122,2,6,alta
-Frete Leve Leste,em_tempo,ROTA_003,15,baixo,0.8,3850,Van,70,7,1,baixa
-Frete Urgente Sul,atrasado,ROTA_001,6,alto,27.0,1950,Caminhão Baú,130,1,8,alta
-Frete Standard Oeste,em_tempo,ROTA_005,14,medio,3.0,2650,Caminhão Truck,96,4,3,baixa
-Frete Noturno Sul,em_tempo,ROTA_001,2,baixo,0.0,3100,Caminhão Truck,85,3,5,baixa
-Frete Pico Tarde Oeste,atrasado,ROTA_005,17,alto,8.5,2400,Caminhão Baú,145,2,7,media
-Frete Chuva Torrencial Norte,atrasado,ROTA_004,10,medio,45.0,2800,Van,120,1,4,alta
-Frete Madrugada Leste,em_tempo,ROTA_003,3,baixo,0.0,1500,Caminhão Baú,105,5,6,baixa
-Frete Carga Máxima Centro,atrasado,ROTA_002,9,alto,2.0,3950,Caminhão Truck,130,2,5,media
-Frete Expresso Sul,em_tempo,ROTA_001,11,baixo,0.0,1200,Van,75,6,1,media
-Frete Padrão Leste,atrasado,ROTA_003,18,alto,5.0,2600,Caminhão Bitrem,180,1,9,alta
-Frete Rápido Oeste,em_tempo,ROTA_005,10,baixo,1.2,1900,Van,88,5,2,baixa
-Frete Industrial Norte,em_tempo,ROTA_004,21,baixo,0.0,3500,Caminhão Bitrem,135,4,4,baixa
-Frete Urbano Centro,atrasado,ROTA_002,17,alto,12.0,2100,Caminhão Baú,125,2,6,media
-Frete Leve Sul,em_tempo,ROTA_001,13,baixo,0.0,800,Van,70,7,1,baixa
-Frete Pesado Oeste,atrasado,ROTA_005,7,alto,15.5,3800,Caminhão Bitrem,175,1,8,alta
-Frete Standard Norte,em_tempo,ROTA_004,14,medio,0.0,2500,Caminhão Truck,95,3,3,baixa
-Frete Urgente Leste,atrasado,ROTA_003,8,alto,20.0,2000,Caminhão Baú,140,2,7,alta
-Frete Econômico Sul,em_tempo,ROTA_001,22,baixo,0.5,3200,Caminhão Truck,92,6,2,baixa
-Frete Express Centro,em_tempo,ROTA_002,11,baixo,0.0,1600,Van,80,5,1,media
-Frete Logística Norte,atrasado,ROTA_004,18,alto,3.5,2900,Caminhão Baú,130,2,5,media
-Frete Padrão Oeste,em_tempo,ROTA_005,4,baixo,0.0,2700,Caminhão Truck,102,4,3,baixa
-Frete Distribuição Leste,em_tempo,ROTA_003,10,medio,1.5,2300,Van,98,5,2,baixa
-Frete Especial Sul,atrasado,ROTA_001,7,alto,32.0,2500,Caminhão Truck,150,1,8,alta
-Frete Expresso 2 Sul,em_tempo,ROTA_001,14,baixo,0.0,2000,Van,95,4,2,media
-Frete Normal 2 Centro,atrasado,ROTA_002,8,alto,18.0,2600,Caminhão Truck,115,2,6,alta
-Frete Rápido 2 Leste,em_tempo,ROTA_003,11,medio,2.0,2100,Caminhão Baú,100,3,4,baixa
-Frete Padrão 2 Norte,em_tempo,ROTA_004,16,baixo,1.0,3000,Van,85,5,1,baixa
-Frete Standard 2 Oeste,atrasado,ROTA_005,7,alto,25.0,1900,Caminhão Baú,135,1,7,alta
-Frete Leve 2 Sul,em_tempo,ROTA_001,9,baixo,0.5,3400,Van,80,6,2,baixa
-Frete Pesado 2 Leste,em_tempo,ROTA_003,15,baixo,0.0,3700,Caminhão Bitrem,145,4,5,baixa
-Frete Urgente 2 Norte,em_tempo,ROTA_004,12,baixo,2.0,2200,Van,90,5,3,alta
-Frete Expresso 3 Centro,atrasado,ROTA_002,6,alto,28.0,2300,Caminhão Truck,125,1,8,alta
-Frete Normal 3 Sul,em_tempo,ROTA_001,13,baixo,0.0,2800,Van,88,6,1,baixa
-Frete Rápido 3 Oeste,em_tempo,ROTA_005,14,baixo,1.0,1700,Caminhão Baú,105,5,2,media
-Frete Padrão 3 Leste,atrasado,ROTA_003,19,alto,15.0,2500,Caminhão Truck,140,2,6,alta
-Frete Standard 3 Norte,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,4,3,baixa
-Frete Leve 3 Centro,em_tempo,ROTA_002,11,baixo,0.0,3500,Van,78,7,1,baixa
-Frete Pesado 3 Sul,atrasado,ROTA_001,8,alto,22.0,3600,Caminhão Bitrem,155,1,9,alta
-Frete Urgente 3 Oeste,em_tempo,ROTA_005,16,baixo,0.0,2000,Caminhão Truck,98,5,2,alta
-Frete Expresso 4 Norte,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,2,7,alta
-Frete Normal 4 Leste,em_tempo,ROTA_003,14,baixo,1.5,2700,Caminhão Truck,95,4,4,baixa
-Frete Rápido 4 Centro,em_tempo,ROTA_002,10,baixo,0.0,2900,Van,85,6,1,media
-Frete Padrão 4 Sul,atrasado,ROTA_001,18,alto,12.0,2100,Caminhão Baú,120,2,5,media
-Frete Standard 4 Oeste,em_tempo,ROTA_005,12,baixo,0.5,1800,Van,92,5,2,baixa
-Frete Leve 4 Norte,em_tempo,ROTA_004,15,baixo,0.0,3300,Van,80,6,1,baixa
-Frete Pesado 4 Centro,atrasado,ROTA_002,6,alto,30.0,3800,Caminhão Bitrem,160,1,10,alta
-Frete Urgente 4 Sul,em_tempo,ROTA_001,13,baixo,0.0,1900,Caminhão Truck,105,4,3,alta
-Frete Expresso 5 Leste,em_tempo,ROTA_003,11,baixo,2.0,2200,Caminhão Baú,98,5,2,media
-Frete Normal 5 Oeste,atrasado,ROTA_005,8,alto,18.0,2500,Caminhão Truck,125,2,6,alta
-Frete Rápido 5 Norte,em_tempo,ROTA_004,14,baixo,0.5,2000,Van,88,6,1,baixa
-Frete Padrão 5 Centro,em_tempo,ROTA_002,10,baixo,0.0,2800,Caminhão Truck,92,4,4,baixa
-Frete Standard 5 Sul,atrasado,ROTA_001,17,alto,14.0,2300,Caminhão Baú,135,1,7,alta
-Frete Leve 5 Leste,em_tempo,ROTA_003,16,baixo,0.0,3400,Van,75,7,2,baixa
-Frete Pesado 5 Norte,atrasado,ROTA_004,7,alto,28.0,3900,Caminhão Bitrem,165,2,8,alta
-Frete Urgente 5 Centro,em_tempo,ROTA_002,12,baixo,1.0,2100,Van,90,5,3,alta
-Frete Expresso 6 Sul,em_tempo,ROTA_001,9,baixo,0.0,2600,Caminhão Baú,100,6,2,media
-Frete Normal 6 Oeste,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Truck,130,2,6,media
-Frete Rápido 6 Leste,em_tempo,ROTA_003,13,baixo,0.5,1900,Caminhão Baú,108,5,3,baixa
-Frete Padrão 6 Norte,em_tempo,ROTA_004,11,baixo,0.0,3000,Van,85,4,1,baixa
-Frete Standard 6 Centro,atrasado,ROTA_002,6,alto,35.0,2200,Caminhão Truck,140,1,9,alta
-Frete Leve 6 Sul,em_tempo,ROTA_001,14,baixo,0.0,3200,Van,78,7,1,baixa
-Frete Pesado 6 Oeste,atrasado,ROTA_005,8,alto,25.0,3700,Caminhão Bitrem,155,1,8,alta
-Frete Urgente 6 Norte,em_tempo,ROTA_004,15,baixo,1.0,2000,Van,92,5,2,alta
-Frete Expresso 7 Centro,atrasado,ROTA_002,7,alto,22.0,2300,Caminhão Baú,128,2,7,alta
-Frete Normal 7 Sul,em_tempo,ROTA_001,12,baixo,0.0,2700,Van,88,6,1,baixa
-Frete Rápido 7 Leste,em_tempo,ROTA_003,16,baixo,2.0,2100,Caminhão Truck,98,4,4,baixa
-Frete Padrão 7 Oeste,atrasado,ROTA_005,18,alto,10.0,2500,Caminhão Baú,135,2,5,media
-Frete Standard 7 Norte,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,5,2,baixa
-Frete Leve 7 Centro,em_tempo,ROTA_002,13,baixo,0.0,3400,Van,76,7,1,baixa
-Frete Pesado 7 Sul,atrasado,ROTA_001,6,alto,32.0,3800,Caminhão Bitrem,160,1,9,alta
-Frete Urgente 7 Leste,em_tempo,ROTA_003,14,baixo,0.0,2000,Caminhão Truck,102,4,3,alta
+freight_description,delay_label,route_variant_id,planned_departure_hour,traffic_level_forecast,rain_forecast_mm,cargo_weight_kg,vehicle_type,historical_avg_route_time_min,distance_km
+JKL-8291,atrasado,ROTA_001,7,alto,15.0,1800,Caminhão Baú,120,85
+QPR-4456,em_tempo,ROTA_002,14,baixo,0.0,2500,Van,90,45
+XMN-7723,atrasado,ROTA_003,8,medio,8.0,2200,Caminhão Truck,105,120
+AZK-1198,em_tempo,ROTA_004,10,baixo,2.0,3200,Van,85,55
+BTV-6637,em_tempo,ROTA_005,11,medio,5.0,1500,Caminhão Baú,130,95
+WXL-2841,atrasado,ROTA_001,17,alto,12.0,2800,Caminhão Truck,95,85
+HGF-9012,em_tempo,ROTA_002,9,baixo,0.5,3500,Van,88,45
+NMP-5589,em_tempo,ROTA_003,6,alto,20.0,2000,Caminhão Bitrem,145,120
+CDL-3344,em_tempo,ROTA_004,16,baixo,1.0,3800,Van,75,55
+RST-1567,atrasado,ROTA_005,8,medio,3.5,1700,Caminhão Baú,100,95
+OPQ-9087,em_tempo,ROTA_002,12,baixo,0.0,3000,Van,92,45
+UVW-5213,atrasado,ROTA_001,18,alto,18.0,2400,Caminhão Truck,115,85
+YZA-7822,em_tempo,ROTA_004,13,baixo,2.5,2100,Van,82,55
+EFG-4451,atrasado,ROTA_003,7,alto,25.0,1600,Caminhão Baú,135,120
+KLM-2988,em_tempo,ROTA_005,10,baixo,4.0,2700,Caminhão Truck,98,95
+PQR-6319,em_tempo,ROTA_004,15,baixo,1.5,3300,Van,86,55
+STU-1743,atrasado,ROTA_002,19,alto,22.0,1900,Caminhão Baú,110,45
+VWX-9023,em_tempo,ROTA_001,9,baixo,0.3,3600,Van,78,85
+BCD-5671,em_tempo,ROTA_003,14,baixo,1.0,2300,Caminhão Bitrem,150,120
+GHI-3892,em_tempo,ROTA_004,11,medio,5.0,2000,Caminhão Truck,102,55
+NO-7453,em_tempo,ROTA_005,16,baixo,0.5,2800,Van,91,95
+UVA-2187,atrasado,ROTA_001,7,alto,30.0,1700,Caminhão Baú,125,85
+XYZ-4531,em_tempo,ROTA_003,13,baixo,3.5,2500,Caminhão Truck,95,120
+AAA-8762,atrasado,ROTA_002,8,alto,19.0,2200,Caminhão Baú,108,45
+DDD-1298,em_tempo,ROTA_004,10,baixo,1.0,3100,Van,80,55
+EEE-5623,em_tempo,ROTA_005,12,baixo,0.5,1800,Caminhão Truck,128,95
+FFF-9341,em_tempo,ROTA_002,15,baixo,0.5,3400,Van,76,45
+GGG-3472,atrasado,ROTA_001,6,alto,35.0,2100,Caminhão Baú,112,85
+HHH-7018,em_tempo,ROTA_003,14,baixo,2.0,2600,Caminhão Truck,94,120
+III-4856,em_tempo,ROTA_004,9,baixo,0.0,2900,Van,84,55
+JJJ-1234,atrasado,ROTA_001,17,medio,8.0,2400,Caminhão Bitrem,142,85
+KKK-8671,em_tempo,ROTA_005,11,baixo,4.0,2300,Caminhão Truck,100,95
+LLL-2567,em_tempo,ROTA_004,13,baixo,1.5,2700,Van,87,55
+MMM-6782,em_tempo,ROTA_003,16,baixo,0.5,1900,Caminhão Baú,122,120
+NNN-4123,em_tempo,ROTA_005,14,baixo,0.2,3500,Van,74,95
+OOO-5891,em_tempo,ROTA_002,10,baixo,0.7,3200,Van,83,45
+PPP-7342,atrasado,ROTA_001,8,alto,28.0,2000,Caminhão Truck,132,85
+QQQ-1678,em_tempo,ROTA_004,12,medio,3.0,2500,Caminhão Truck,97,55
+RRR-9234,atrasado,ROTA_005,18,alto,16.0,2100,Caminhão Baú,106,95
+SSS-3487,em_tempo,ROTA_002,9,baixo,1.0,2800,Van,85,45
+TTT-5912,em_tempo,ROTA_001,11,medio,5.5,2300,Caminhão Truck,99,85
+UUU-8243,atrasado,ROTA_004,19,alto,10.0,2600,Caminhão Bitrem,148,55
+VVV-2378,em_tempo,ROTA_003,15,baixo,0.4,3700,Van,72,120
+WWW-6701,em_tempo,ROTA_005,13,baixo,0.9,3000,Van,88,95
+XXX-1034,atrasado,ROTA_001,7,alto,23.0,1800,Caminhão Baú,124,85
+YYY-4167,atrasado,ROTA_002,6,alto,24.0,2400,Caminhão Truck,122,45
+ZZZ-8592,atrasado,ROTA_005,8,alto,22.5,3100,Caminhão Bitrem,155,95
+AAA-5921,atrasado,ROTA_003,17,medio,12.0,1750,Caminhão Baú,118,120
+BBB-2756,em_tempo,ROTA_002,14,baixo,2.5,3300,Van,79,45
+CCC-9087,em_tempo,ROTA_001,10,baixo,0.0,2900,Caminhão Truck,92,85
+DDD-3412,atrasado,ROTA_004,19,alto,19.0,2100,Caminhão Baú,115,55
+EEE-6847,em_tempo,ROTA_005,11,baixo,0.0,1900,Van,85,95
+FFF-1278,atrasado,ROTA_002,7,alto,31.0,2500,Caminhão Bitrem,158,45
+GGG-4603,em_tempo,ROTA_003,16,baixo,1.5,2700,Caminhão Truck,90,120
+HHH-8931,em_tempo,ROTA_001,12,medio,4.5,1850,Van,81,85
+III-5367,em_tempo,ROTA_002,13,baixo,0.0,2400,Caminhão Truck,88,45
+JJJ-2698,atrasado,ROTA_004,18,alto,14.5,2200,Caminhão Baú,122,55
+KKK-8023,em_tempo,ROTA_003,15,baixo,0.8,3850,Van,70,120
+LLL-1456,atrasado,ROTA_001,6,alto,27.0,1950,Caminhão Baú,130,85
+MMM-5789,em_tempo,ROTA_005,14,medio,3.0,2650,Caminhão Truck,96,95
+NNN-9112,em_tempo,ROTA_001,2,baixo,0.0,3100,Caminhão Truck,85,85
+OOO-2443,atrasado,ROTA_005,17,alto,8.5,2400,Caminhão Baú,145,95
+PPP-6778,atrasado,ROTA_004,10,medio,45.0,2800,Van,120,55
+QQQ-3102,em_tempo,ROTA_003,3,baixo,0.0,1500,Caminhão Baú,105,120
+RRR-6431,atrasado,ROTA_002,9,alto,2.0,3950,Caminhão Truck,130,45
+SSS-9765,em_tempo,ROTA_001,11,baixo,0.0,1200,Van,75,85
+TTT-2098,atrasado,ROTA_003,18,alto,5.0,2600,Caminhão Bitrem,180,120
+UUU-5423,em_tempo,ROTA_005,10,baixo,1.2,1900,Van,88,95
+VVV-8756,em_tempo,ROTA_004,21,baixo,0.0,3500,Caminhão Bitrem,135,55
+WWW-1387,atrasado,ROTA_002,17,alto,12.0,2100,Caminhão Baú,125,45
+XXX-4612,em_tempo,ROTA_001,13,baixo,0.0,800,Van,70,85
+YYY-7945,atrasado,ROTA_005,7,alto,15.5,3800,Caminhão Bitrem,175,95
+ZZZ-3278,em_tempo,ROTA_004,14,medio,0.0,2500,Caminhão Truck,95,55
+AAA-6601,atrasado,ROTA_003,8,alto,20.0,2000,Caminhão Baú,140,120
+BBB-9934,em_tempo,ROTA_001,22,baixo,0.5,3200,Caminhão Truck,92,85
+CCC-1267,em_tempo,ROTA_002,11,baixo,0.0,1600,Van,80,45
+DDD-4598,atrasado,ROTA_004,18,alto,3.5,2900,Caminhão Baú,130,55
+EEE-7823,em_tempo,ROTA_005,4,baixo,0.0,2700,Caminhão Truck,102,95
+FFF-5156,em_tempo,ROTA_003,10,medio,1.5,2300,Van,98,120
+GGG-2489,atrasado,ROTA_001,7,alto,32.0,2500,Caminhão Truck,150,85
+HHH-5812,em_tempo,ROTA_001,14,baixo,0.0,2000,Van,95,85
+III-9143,atrasado,ROTA_002,8,alto,18.0,2600,Caminhão Truck,115,45
+JJJ-3478,em_tempo,ROTA_003,11,medio,2.0,2100,Caminhão Baú,100,120
+KKK-6801,em_tempo,ROTA_004,16,baixo,1.0,3000,Van,85,55
+LLL-2134,atrasado,ROTA_005,7,alto,25.0,1900,Caminhão Baú,135,95
+MMM-5467,em_tempo,ROTA_001,9,baixo,0.5,3400,Van,80,85
+NNN-8792,em_tempo,ROTA_003,15,baixo,0.0,3700,Caminhão Bitrem,145,120
+OOO-1123,em_tempo,ROTA_004,12,baixo,2.0,2200,Van,90,55
+PPP-4456,atrasado,ROTA_002,6,alto,28.0,2300,Caminhão Truck,125,45
+QQQ-7789,em_tempo,ROTA_001,13,baixo,0.0,2800,Van,88,85
+RRR-3012,em_tempo,ROTA_005,14,baixo,1.0,1700,Caminhão Baú,105,95
+SSS-6341,atrasado,ROTA_003,19,alto,15.0,2500,Caminhão Truck,140,120
+TTT-9678,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,55
+UUU-2901,em_tempo,ROTA_002,11,baixo,0.0,3500,Van,78,45
+VVV-5234,atrasado,ROTA_001,8,alto,22.0,3600,Caminhão Bitrem,155,85
+WWW-8567,em_tempo,ROTA_005,16,baixo,0.0,2000,Caminhão Truck,98,95
+XXX-1892,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,55
+YYY-4223,em_tempo,ROTA_003,14,baixo,1.5,2700,Caminhão Truck,95,120
+ZZZ-7556,em_tempo,ROTA_002,10,baixo,0.0,2900,Van,85,45
+AAA-9887,atrasado,ROTA_001,18,alto,12.0,2100,Caminhão Baú,120,85
+BBB-3212,em_tempo,ROTA_005,12,baixo,0.5,1800,Van,92,95
+CCC-6545,em_tempo,ROTA_004,15,baixo,0.0,3300,Van,80,55
+DDD-2878,atrasado,ROTA_002,6,alto,30.0,3800,Caminhão Bitrem,160,45
+EEE-9201,em_tempo,ROTA_001,13,baixo,0.0,1900,Caminhão Truck,105,85
+FFF-1534,em_tempo,ROTA_003,11,baixo,2.0,2200,Caminhão Baú,98,120
+GGG-4867,atrasado,ROTA_005,8,alto,18.0,2500,Caminhão Truck,125,95
+HHH-7198,em_tempo,ROTA_004,14,baixo,0.5,2000,Van,88,55
+III-3423,em_tempo,ROTA_002,10,baixo,0.0,2800,Caminhão Truck,92,45
+JJJ-6756,atrasado,ROTA_001,17,alto,14.0,2300,Caminhão Baú,135,85
+KKK-9089,em_tempo,ROTA_003,16,baixo,0.0,3400,Van,75,120
+LLL-2412,atrasado,ROTA_004,7,alto,28.0,3900,Caminhão Bitrem,165,55
+MMM-5745,em_tempo,ROTA_002,12,baixo,1.0,2100,Van,90,45
+NNN-8078,em_tempo,ROTA_001,9,baixo,0.0,2600,Caminhão Baú,100,85
+OOO-1401,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Truck,130,95
+PPP-4734,em_tempo,ROTA_003,13,baixo,0.5,1900,Caminhão Baú,108,120
+QQQ-7067,em_tempo,ROTA_004,11,baixo,0.0,3000,Van,85,55
+RRR-3398,atrasado,ROTA_002,6,alto,35.0,2200,Caminhão Truck,140,45
+SSS-6623,em_tempo,ROTA_001,14,baixo,0.0,3200,Van,78,85
+TTT-9956,atrasado,ROTA_005,8,alto,25.0,3700,Caminhão Bitrem,155,95
+UUU-2289,em_tempo,ROTA_004,15,baixo,1.0,2000,Van,92,55
+VVV-5612,atrasado,ROTA_002,7,alto,22.0,2300,Caminhão Baú,128,45
+WWW-8945,em_tempo,ROTA_001,12,baixo,0.0,2700,Van,88,85
+XXX-1278,em_tempo,ROTA_003,16,baixo,2.0,2100,Caminhão Truck,98,120
+YYY-4601,atrasado,ROTA_005,18,alto,10.0,2500,Caminhão Baú,135,95
+ZZZ-7934,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,55
+AAA-2267,em_tempo,ROTA_002,13,baixo,0.0,3400,Van,76,45
+BBB-5598,atrasado,ROTA_001,6,alto,32.0,3800,Caminhão Bitrem,160,85
+CCC-8823,em_tempo,ROTA_003,14,baixo,0.0,2000,Caminhão Truck,102,120
+DDD-1156,em_tempo,ROTA_004,9,baixo,0.0,2800,Van,84,55
+EEE-4489,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Baú,130,95
+FFF-7812,em_tempo,ROTA_002,11,baixo,1.0,2200,Van,88,45
+GGG-3145,em_tempo,ROTA_001,15,baixo,0.0,2500,Caminhão Truck,95,85
+HHH-6478,em_tempo,ROTA_003,17,baixo,0.5,1800,Caminhão Baú,115,120
+III-9701,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,55
+JJJ-2034,em_tempo,ROTA_002,10,baixo,0.0,2600,Van,82,45
+KKK-5367,atrasado,ROTA_001,18,alto,12.0,2100,Caminhão Baú,120,85
+LLL-8698,em_tempo,ROTA_005,12,baixo,0.5,1900,Van,92,95
+MMM-1023,em_tempo,ROTA_004,14,baixo,0.0,3200,Van,78,55
+NNN-4356,atrasado,ROTA_002,6,alto,30.0,3700,Caminhão Bitrem,155,45
+OOO-7689,em_tempo,ROTA_001,13,baixo,0.0,1900,Caminhão Truck,105,85
+PPP-9012,em_tempo,ROTA_003,10,baixo,2.0,2200,Caminhão Baú,98,120
+QQQ-2345,atrasado,ROTA_005,8,alto,18.0,2500,Caminhão Truck,125,95
+RRR-5678,em_tempo,ROTA_004,15,baixo,0.5,2000,Van,88,55
+SSS-8901,em_tempo,ROTA_002,11,baixo,0.0,2800,Caminhão Truck,92,45
+TTT-1234,atrasado,ROTA_001,17,alto,14.0,2300,Caminhão Baú,135,85
+UUU-4567,em_tempo,ROTA_003,16,baixo,0.0,3400,Van,75,120
+VVV-7898,atrasado,ROTA_004,7,alto,28.0,3900,Caminhão Bitrem,165,55
+WWW-3223,em_tempo,ROTA_002,12,baixo,1.0,2100,Van,90,45
+XXX-6556,em_tempo,ROTA_001,9,baixo,0.0,2600,Caminhão Baú,100,85
+YYY-9889,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Truck,130,95
+ZZZ-2212,em_tempo,ROTA_003,13,baixo,0.5,1900,Caminhão Baú,108,120
+AAA-5545,em_tempo,ROTA_004,11,baixo,0.0,3000,Van,85,55
+BBB-8878,atrasado,ROTA_002,6,alto,35.0,2200,Caminhão Truck,140,45
+CCC-1201,em_tempo,ROTA_001,14,baixo,0.0,3200,Van,78,85
+DDD-4534,atrasado,ROTA_005,8,alto,25.0,3700,Caminhão Bitrem,155,95
+EEE-7867,em_tempo,ROTA_004,15,baixo,1.0,2000,Van,92,55
+FFF-9198,atrasado,ROTA_002,7,alto,22.0,2300,Caminhão Baú,128,45
+GGG-2523,em_tempo,ROTA_001,12,baixo,0.0,2700,Van,88,85
+HHH-5856,em_tempo,ROTA_003,16,baixo,2.0,2100,Caminhão Truck,98,120
+III-8189,atrasado,ROTA_005,18,alto,10.0,2500,Caminhão Baú,135,95
+JJJ-1412,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,55
+KKK-4745,em_tempo,ROTA_002,13,baixo,0.0,3400,Van,76,45
+LLL-7078,atrasado,ROTA_001,6,alto,32.0,3800,Caminhão Bitrem,160,85
+MMM-9301,em_tempo,ROTA_003,14,baixo,0.0,2000,Caminhão Truck,102,120
+NNN-2634,em_tempo,ROTA_004,9,baixo,0.0,2800,Van,84,55
+OOO-5967,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Baú,130,95
+PPP-8298,em_tempo,ROTA_002,11,baixo,1.0,2200,Van,88,45
+QQQ-1623,em_tempo,ROTA_001,15,baixo,0.0,2500,Caminhão Truck,95,85
+RRR-4956,em_tempo,ROTA_003,17,baixo,0.5,1800,Caminhão Baú,115,120
+SSS-7289,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,55
+TTT-9512,em_tempo,ROTA_002,10,baixo,0.0,2600,Van,82,45
+UUU-2845,atrasado,ROTA_001,18,alto,12.0,2100,Caminhão Baú,120,85
+VVV-5178,em_tempo,ROTA_005,12,baixo,0.5,1900,Van,92,95
+WWW-7401,em_tempo,ROTA_004,14,baixo,0.0,3200,Van,78,55
+XXX-9734,atrasado,ROTA_002,6,alto,30.0,3700,Caminhão Bitrem,155,45
+YYY-2067,em_tempo,ROTA_001,13,baixo,0.0,1900,Caminhão Truck,105,85
+ZZZ-5398,em_tempo,ROTA_003,10,baixo,2.0,2200,Caminhão Baú,98,120
+AAA-8723,atrasado,ROTA_005,8,alto,18.0,2500,Caminhão Truck,125,95
+BBB-1056,em_tempo,ROTA_004,15,baixo,0.5,2000,Van,88,55
+CCC-4389,em_tempo,ROTA_002,11,baixo,0.0,2800,Caminhão Truck,92,45
+DDD-6712,atrasado,ROTA_001,17,alto,14.0,2300,Caminhão Baú,135,85
+EEE-9045,em_tempo,ROTA_003,16,baixo,0.0,3400,Van,75,120
+FFF-2378,atrasado,ROTA_004,7,alto,28.0,3900,Caminhão Bitrem,165,55
+GGG-4601,em_tempo,ROTA_002,12,baixo,1.0,2100,Van,90,45
+HHH-6934,em_tempo,ROTA_001,9,baixo,0.0,2600,Caminhão Baú,100,85
+III-9267,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Truck,130,95
+JJJ-1598,em_tempo,ROTA_003,13,baixo,0.5,1900,Caminhão Baú,108,120
+KKK-3823,em_tempo,ROTA_004,11,baixo,0.0,3000,Van,85,55
+LLL-6156,atrasado,ROTA_002,6,alto,35.0,2200,Caminhão Truck,140,45
+MMM-8489,em_tempo,ROTA_001,14,baixo,0.0,3200,Van,78,85
+NNN-1812,atrasado,ROTA_005,8,alto,25.0,3700,Caminhão Bitrem,155,95
+OOO-4145,em_tempo,ROTA_004,15,baixo,1.0,2000,Van,92,55
+PPP-7478,atrasado,ROTA_002,7,alto,22.0,2300,Caminhão Baú,128,45
+QQQ-9701,em_tempo,ROTA_001,12,baixo,0.0,2700,Van,88,85
+RRR-2034,em_tempo,ROTA_003,16,baixo,2.0,2100,Caminhão Truck,98,120
+SSS-5367,atrasado,ROTA_005,18,alto,10.0,2500,Caminhão Baú,135,95
+TTT-8698,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,55
+UUU-1023,em_tempo,ROTA_002,13,baixo,0.0,3400,Van,76,45
+VVV-4356,atrasado,ROTA_001,6,alto,32.0,3800,Caminhão Bitrem,160,85
+WWW-7689,em_tempo,ROTA_003,14,baixo,0.0,2000,Caminhão Truck,102,120
+XXX-9912,em_tempo,ROTA_004,9,baixo,0.0,2800,Van,84,55
+YYY-2245,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Baú,130,95
+ZZZ-5578,em_tempo,ROTA_002,11,baixo,1.0,2200,Van,88,45
+AAA-8801,em_tempo,ROTA_001,15,baixo,0.0,2500,Caminhão Truck,95,85
+BBB-1134,em_tempo,ROTA_003,17,baixo,0.5,1800,Caminhão Baú,115,120
+CCC-4467,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,55
+DDD-7798,em_tempo,ROTA_002,10,baixo,0.0,2600,Van,82,45
+EEE-9123,atrasado,ROTA_001,18,alto,12.0,2100,Caminhão Baú,120,85
+FFF-1456,em_tempo,ROTA_005,12,baixo,0.5,1900,Van,92,95
+GGG-4789,em_tempo,ROTA_004,14,baixo,0.0,3200,Van,78,55
+HHH-7012,atrasado,ROTA_002,6,alto,30.0,3700,Caminhão Bitrem,155,45
+III-9345,em_tempo,ROTA_001,13,baixo,0.0,1900,Caminhão Truck,105,85
+JJJ-2678,em_tempo,ROTA_003,10,baixo,2.0,2200,Caminhão Baú,98,120
+KKK-5001,atrasado,ROTA_005,8,alto,18.0,2500,Caminhão Truck,125,95
+LLL-8334,em_tempo,ROTA_004,15,baixo,0.5,2000,Van,88,55
+MMM-1667,em_tempo,ROTA_002,11,baixo,0.0,2800,Caminhão Truck,92,45
+NNN-4998,atrasado,ROTA_001,17,alto,14.0,2300,Caminhão Baú,135,85
+OOO-7223,em_tempo,ROTA_003,16,baixo,0.0,3400,Van,75,120
+PPP-9556,atrasado,ROTA_004,7,alto,28.0,3900,Caminhão Bitrem,165,55
+QQQ-2889,em_tempo,ROTA_002,12,baixo,1.0,2100,Van,90,45
+RRR-5212,em_tempo,ROTA_001,9,baixo,0.0,2600,Caminhão Baú,100,85
+SSS-8545,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Truck,130,95
+TTT-1878,em_tempo,ROTA_003,13,baixo,0.5,1900,Caminhão Baú,108,120
+UUU-4201,em_tempo,ROTA_004,11,baixo,0.0,3000,Van,85,55
+VVV-7534,atrasado,ROTA_002,6,alto,35.0,2200,Caminhão Truck,140,45
+WWW-9867,em_tempo,ROTA_001,14,baixo,0.0,3200,Van,78,85
+XXX-2198,atrasado,ROTA_005,8,alto,25.0,3700,Caminhão Bitrem,155,95
+YYY-4523,em_tempo,ROTA_004,15,baixo,1.0,2000,Van,92,55
+ZZZ-6856,atrasado,ROTA_002,7,alto,22.0,2300,Caminhão Baú,128,45
+AAA-9189,em_tempo,ROTA_001,12,baixo,0.0,2700,Van,88,85
+BBB-1512,em_tempo,ROTA_003,16,baixo,2.0,2100,Caminhão Truck,98,120
+CCC-4845,atrasado,ROTA_005,18,alto,10.0,2500,Caminhão Baú,135,95
+DDD-7178,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,55
+EEE-9401,em_tempo,ROTA_002,13,baixo,0.0,3400,Van,76,45
+FFF-2734,atrasado,ROTA_001,6,alto,32.0,3800,Caminhão Bitrem,160,85
+GGG-5067,em_tempo,ROTA_003,14,baixo,0.0,2000,Caminhão Truck,102,120
+HHH-8398,em_tempo,ROTA_004,9,baixo,0.0,2800,Van,84,55
+III-1723,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Baú,130,95
+JJJ-4056,em_tempo,ROTA_002,11,baixo,1.0,2200,Van,88,45
+KKK-6389,em_tempo,ROTA_001,15,baixo,0.0,2500,Caminhão Truck,95,85
+LLL-8612,em_tempo,ROTA_003,17,baixo,0.5,1800,Caminhão Baú,115,120
+MMM-1945,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,55
+NNN-4278,em_tempo,ROTA_002,10,baixo,0.0,2600,Van,82,45
+OOO-6501,atrasado,ROTA_001,18,alto,12.0,2100,Caminhão Baú,120,85
+PPP-8834,em_tempo,ROTA_005,12,baixo,0.5,1900,Van,92,95
+QQQ-1167,em_tempo,ROTA_004,14,baixo,0.0,3200,Van,78,55
+RRR-4498,atrasado,ROTA_002,6,alto,30.0,3700,Caminhão Bitrem,155,45
+SSS-6723,em_tempo,ROTA_001,13,baixo,0.0,1900,Caminhão Truck,105,85
+TTT-9056,em_tempo,ROTA_003,10,baixo,2.0,2200,Caminhão Baú,98,120
+UUU-2389,atrasado,ROTA_005,8,alto,18.0,2500,Caminhão Truck,125,95
+VVV-4712,em_tempo,ROTA_004,15,baixo,0.5,2000,Van,88,55
+WWW-7045,em_tempo,ROTA_002,11,baixo,0.0,2800,Caminhão Truck,92,45
+XXX-9378,atrasado,ROTA_001,17,alto,14.0,2300,Caminhão Baú,135,85
+YYY-2701,em_tempo,ROTA_003,16,baixo,0.0,3400,Van,75,120
+ZZZ-5034,atrasado,ROTA_004,7,alto,28.0,3900,Caminhão Bitrem,165,55
+AAA-7367,em_tempo,ROTA_002,12,baixo,1.0,2100,Van,90,45
+BBB-9698,em_tempo,ROTA_001,9,baixo,0.0,2600,Caminhão Baú,100,85
+CCC-2023,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Truck,130,95
+DDD-5356,em_tempo,ROTA_003,13,baixo,0.5,1900,Caminhão Baú,108,120
+EEE-7689,em_tempo,ROTA_004,11,baixo,0.0,3000,Van,85,55
+FFF-9912,atrasado,ROTA_002,6,alto,35.0,2200,Caminhão Truck,140,45
+GGG-2245,em_tempo,ROTA_001,14,baixo,0.0,3200,Van,78,85
+HHH-5578,atrasado,ROTA_005,8,alto,25.0,3700,Caminhão Bitrem,155,95
+III-7801,em_tempo,ROTA_004,15,baixo,1.0,2000,Van,92,55
+JJJ-1134,atrasado,ROTA_002,7,alto,22.0,2300,Caminhão Baú,128,45
+KKK-4467,em_tempo,ROTA_001,12,baixo,0.0,2700,Van,88,85
+LLL-6798,em_tempo,ROTA_003,16,baixo,2.0,2100,Caminhão Truck,98,120
+MMM-9023,atrasado,ROTA_005,18,alto,10.0,2500,Caminhão Baú,135,95
+NNN-2356,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,55
+OOO-5689,em_tempo,ROTA_002,13,baixo,0.0,3400,Van,76,45
+PPP-8912,atrasado,ROTA_001,6,alto,32.0,3800,Caminhão Bitrem,160,85
+QQQ-1245,em_tempo,ROTA_003,14,baixo,0.0,2000,Caminhão Truck,102,120
+RRR-4578,em_tempo,ROTA_004,9,baixo,0.0,2800,Van,84,55
+SSS-6801,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Baú,130,95
+TTT-9134,em_tempo,ROTA_002,11,baixo,1.0,2200,Van,88,45
+UUU-2467,em_tempo,ROTA_001,15,baixo,0.0,2500,Caminhão Truck,95,85
+VVV-4798,em_tempo,ROTA_003,17,baixo,0.5,1800,Caminhão Baú,115,120
+WWW-7023,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,55
+XXX-9356,em_tempo,ROTA_002,10,baixo,0.0,2600,Van,82,45
+YYY-1689,atrasado,ROTA_001,18,alto,12.0,2100,Caminhão Baú,120,85
+ZZZ-4012,em_tempo,ROTA_005,12,baixo,0.5,1900,Van,92,95
+AAA-6345,em_tempo,ROTA_004,14,baixo,0.0,3200,Van,78,55
+BBB-8678,atrasado,ROTA_002,6,alto,30.0,3700,Caminhão Bitrem,155,45
+CCC-1001,em_tempo,ROTA_001,13,baixo,0.0,1900,Caminhão Truck,105,85
+DDD-3334,em_tempo,ROTA_003,10,baixo,2.0,2200,Caminhão Baú,98,120
+EEE-6667,atrasado,ROTA_005,8,alto,18.0,2500,Caminhão Truck,125,95
+FFF-8998,em_tempo,ROTA_004,15,baixo,0.5,2000,Van,88,55
+GGG-2323,em_tempo,ROTA_002,11,baixo,0.0,2800,Caminhão Truck,92,45
+HHH-4656,atrasado,ROTA_001,17,alto,14.0,2300,Caminhão Baú,135,85
+III-6989,em_tempo,ROTA_003,16,baixo,0.0,3400,Van,75,120
+JJJ-9212,atrasado,ROTA_004,7,alto,28.0,3900,Caminhão Bitrem,165,55
+KKK-2545,em_tempo,ROTA_002,12,baixo,1.0,2100,Van,90,45
+LLL-4878,em_tempo,ROTA_001,9,baixo,0.0,2600,Caminhão Baú,100,85
+MMM-7201,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Truck,130,95
+NNN-9534,em_tempo,ROTA_003,13,baixo,0.5,1900,Caminhão Baú,108,120
+OOO-1867,em_tempo,ROTA_004,11,baixo,0.0,3000,Van,85,55
+PPP-4198,atrasado,ROTA_002,6,alto,35.0,2200,Caminhão Truck,140,45
+QQQ-6523,em_tempo,ROTA_001,14,baixo,0.0,3200,Van,78,85
+RRR-8856,atrasado,ROTA_005,8,alto,25.0,3700,Caminhão Bitrem,155,95
+SSS-1189,em_tempo,ROTA_004,15,baixo,1.0,2000,Van,92,55
+TTT-3512,atrasado,ROTA_002,7,alto,22.0,2300,Caminhão Baú,128,45
+UUU-5845,em_tempo,ROTA_001,12,baixo,0.0,2700,Van,88,85
+VVV-8178,em_tempo,ROTA_003,16,baixo,2.0,2100,Caminhão Truck,98,120
+WWW-1401,atrasado,ROTA_005,18,alto,10.0,2500,Caminhão Baú,135,95
+XXX-3734,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,55
+YYY-6067,em_tempo,ROTA_002,13,baixo,0.0,3400,Van,76,45
+ZZZ-8398,atrasado,ROTA_001,6,alto,32.0,3800,Caminhão Bitrem,160,85
+AAA-1623,em_tempo,ROTA_003,14,baixo,0.0,2000,Caminhão Truck,102,120
+BBB-4956,em_tempo,ROTA_004,9,baixo,0.0,2800,Van,84,55
+CCC-7289,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Baú,130,95
+DDD-9512,em_tempo,ROTA_002,11,baixo,1.0,2200,Van,88,45
+EEE-2845,em_tempo,ROTA_001,15,baixo,0.0,2500,Caminhão Truck,95,85
+FFF-5178,em_tempo,ROTA_003,17,baixo,0.5,1800,Caminhão Baú,115,120
+GGG-7401,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,55
+HHH-9734,em_tempo,ROTA_002,10,baixo,0.0,2600,Van,82,45
+III-2067,atrasado,ROTA_001,18,alto,12.0,2100,Caminhão Baú,120,85
+JJJ-4398,em_tempo,ROTA_005,12,baixo,0.5,1900,Van,92,95
+KKK-6723,em_tempo,ROTA_004,14,baixo,0.0,3200,Van,78,55
+LLL-9056,atrasado,ROTA_002,6,alto,30.0,3700,Caminhão Bitrem,155,45
+MMM-1389,em_tempo,ROTA_001,13,baixo,0.0,1900,Caminhão Truck,105,85
+NNN-3612,em_tempo,ROTA_003,10,baixo,2.0,2200,Caminhão Baú,98,120
+OOO-5945,atrasado,ROTA_005,8,alto,18.0,2500,Caminhão Truck,125,95
+PPP-8278,em_tempo,ROTA_004,15,baixo,0.5,2000,Van,88,55
+QQQ-1501,em_tempo,ROTA_002,11,baixo,0.0,2800,Caminhão Truck,92,45
+RRR-3834,atrasado,ROTA_001,17,alto,14.0,2300,Caminhão Baú,135,85
+SSS-6167,em_tempo,ROTA_003,16,baixo,0.0,3400,Van,75,120
+TTT-9498,atrasado,ROTA_004,7,alto,28.0,3900,Caminhão Bitrem,165,55
+UUU-2723,em_tempo,ROTA_002,12,baixo,1.0,2100,Van,90,45
+VVV-5056,em_tempo,ROTA_001,9,baixo,0.0,2600,Caminhão Baú,100,85
+WWW-7389,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Truck,130,95
+XXX-9612,em_tempo,ROTA_003,13,baixo,0.5,1900,Caminhão Baú,108,120
+YYY-1945,em_tempo,ROTA_004,11,baixo,0.0,3000,Van,85,55
+ZZZ-3278,atrasado,ROTA_002,6,alto,35.0,2200,Caminhão Truck,140,45
+AAA-5501,em_tempo,ROTA_001,14,baixo,0.0,3200,Van,78,85
+BBB-7834,atrasado,ROTA_005,8,alto,25.0,3700,Caminhão Bitrem,155,95
+CCC-1167,em_tempo,ROTA_004,15,baixo,1.0,2000,Van,92,55
+DDD-3498,atrasado,ROTA_002,7,alto,22.0,2300,Caminhão Baú,128,45
+EEE-5823,em_tempo,ROTA_001,12,baixo,0.0,2700,Van,88,85
+FFF-8156,atrasado,ROTA_003,16,baixo,2.0,2100,Caminhão Truck,98,120
+GGG-1489,atrasado,ROTA_005,18,alto,10.0,2500,Caminhão Baú,135,95
+HHH-3712,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,55
+III-6045,em_tempo,ROTA_002,13,baixo,0.0,3400,Van,76,45
+JJJ-8378,atrasado,ROTA_001,6,alto,32.0,3800,Caminhão Bitrem,160,85
+KKK-1601,em_tempo,ROTA_003,14,baixo,0.0,2000,Caminhão Truck,102,120
+LLL-4934,em_tempo,ROTA_004,9,baixo,0.0,2800,Van,84,55
+MMM-7267,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Baú,130,95
+NNN-9598,em_tempo,ROTA_002,11,baixo,1.0,2200,Van,88,45
+OOO-2823,em_tempo,ROTA_001,15,baixo,0.0,2500,Caminhão Truck,95,85
+PPP-5156,em_tempo,ROTA_003,17,baixo,0.5,1800,Caminhão Baú,115,120
+QQQ-7489,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,55
+RRR-9712,em_tempo,ROTA_002,10,baixo,0.0,2600,Van,82,45
+SSS-2045,atrasado,ROTA_001,18,alto,12.0,2100,Caminhão Baú,120,85
+TTT-4378,em_tempo,ROTA_005,12,baixo,0.5,1900,Van,92,95
+UUU-6701,em_tempo,ROTA_004,14,baixo,0.0,3200,Van,78,55
+VVV-9034,atrasado,ROTA_002,6,alto,30.0,3700,Caminhão Bitrem,155,45
+WWW-1367,em_tempo,ROTA_001,13,baixo,0.0,1900,Caminhão Truck,105,85
+XXX-3698,em_tempo,ROTA_003,10,baixo,2.0,2200,Caminhão Baú,98,120
+YYY-5923,atrasado,ROTA_005,8,alto,18.0,2500,Caminhão Truck,125,95
+ZZZ-8256,em_tempo,ROTA_004,15,baixo,0.5,2000,Van,88,55
+AAA-1589,em_tempo,ROTA_002,11,baixo,0.0,2800,Caminhão Truck,92,45
+BBB-3812,atrasado,ROTA_001,17,alto,14.0,2300,Caminhão Baú,135,85
+CCC-6145,em_tempo,ROTA_003,16,baixo,0.0,3400,Van,75,120
+DDD-9478,atrasado,ROTA_004,7,alto,28.0,3900,Caminhão Bitrem,165,55
+EEE-2701,em_tempo,ROTA_002,12,baixo,1.0,2100,Van,90,45
+FFF-5034,em_tempo,ROTA_001,9,baixo,0.0,2600,Caminhão Baú,100,85
+GGG-7367,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Truck,130,95
+HHH-9698,em_tempo,ROTA_003,13,baixo,0.5,1900,Caminhão Baú,108,120
+III-1923,em_tempo,ROTA_004,11,baixo,0.0,3000,Van,85,55
+JJJ-4256,atrasado,ROTA_002,6,alto,35.0,2200,Caminhão Truck,140,45
+KKK-6589,em_tempo,ROTA_001,14,baixo,0.0,3200,Van,78,85
+LLL-8812,atrasado,ROTA_005,8,alto,25.0,3700,Caminhão Bitrem,155,95
+MMM-1145,em_tempo,ROTA_004,15,baixo,1.0,2000,Van,92,55
+NNN-3478,atrasado,ROTA_002,7,alto,22.0,2300,Caminhão Baú,128,45
+OOO-5701,em_tempo,ROTA_001,12,baixo,0.0,2700,Van,88,85
+PPP-8034,em_tempo,ROTA_003,16,baixo,2.0,2100,Caminhão Truck,98,120
+QQQ-1367,atrasado,ROTA_005,18,alto,10.0,2500,Caminhão Baú,135,95
+RRR-3698,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,55
+SSS-5923,em_tempo,ROTA_002,13,baixo,0.0,3400,Van,76,45
+TTT-8256,atrasado,ROTA_001,6,alto,32.0,3800,Caminhão Bitrem,160,85
+UUU-1589,em_tempo,ROTA_003,14,baixo,0.0,2000,Caminhão Truck,102,120
+VVV-3812,em_tempo,ROTA_004,9,baixo,0.0,2800,Van,84,55
+WWW-6145,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Baú,130,95
+XXX-8478,em_tempo,ROTA_002,11,baixo,1.0,2200,Van,88,45
+YYY-1701,em_tempo,ROTA_001,15,baixo,0.0,2500,Caminhão Truck,95,85
+ZZZ-4034,em_tempo,ROTA_003,17,baixo,0.5,1800,Caminhão Baú,115,120
+AAA-6367,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,55
+BBB-8698,em_tempo,ROTA_002,10,baixo,0.0,2600,Van,82,45
+CCC-1023,atrasado,ROTA_001,18,alto,12.0,2100,Caminhão Baú,120,85
+DDD-3356,em_tempo,ROTA_005,12,baixo,0.5,1900,Van,92,95
+EEE-5689,em_tempo,ROTA_004,14,baixo,0.0,3200,Van,78,55
+FFF-8912,atrasado,ROTA_002,6,alto,30.0,3700,Caminhão Bitrem,155,45
+GGG-1245,em_tempo,ROTA_001,13,baixo,0.0,1900,Caminhão Truck,105,85
+HHH-3578,em_tempo,ROTA_003,10,baixo,2.0,2200,Caminhão Baú,98,120
+III-5801,atrasado,ROTA_005,8,alto,18.0,2500,Caminhão Truck,125,95
+JJJ-8134,em_tempo,ROTA_004,15,baixo,0.5,2000,Van,88,55
+KKK-1467,em_tempo,ROTA_002,11,baixo,0.0,2800,Caminhão Truck,92,45
+LLL-3798,atrasado,ROTA_001,17,alto,14.0,2300,Caminhão Baú,135,85
+MMM-6023,em_tempo,ROTA_003,16,baixo,0.0,3400,Van,75,120
+NNN-8356,atrasado,ROTA_004,7,alto,28.0,3900,Caminhão Bitrem,165,55
+OOO-1689,em_tempo,ROTA_002,12,baixo,1.0,2100,Van,90,45
+PPP-3912,em_tempo,ROTA_001,9,baixo,0.0,2600,Caminhão Baú,100,85
+QQQ-6245,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Truck,130,95
+RRR-9578,em_tempo,ROTA_003,13,baixo,0.5,1900,Caminhão Baú,108,120
+SSS-2801,em_tempo,ROTA_004,11,baixo,0.0,3000,Van,85,55
+TTT-5134,atrasado,ROTA_002,6,alto,35.0,2200,Caminhão Truck,140,45
+UUU-7467,em_tempo,ROTA_001,14,baixo,0.0,3200,Van,78,85
+VVV-9798,atrasado,ROTA_005,8,alto,25.0,3700,Caminhão Bitrem,155,95
+WWW-2023,em_tempo,ROTA_004,15,baixo,1.0,2000,Van,92,55
+XXX-4356,atrasado,ROTA_002,7,alto,22.0,2300,Caminhão Baú,128,45
+YYY-6689,em_tempo,ROTA_001,12,baixo,0.0,2700,Van,88,85
+ZZZ-8912,em_tempo,ROTA_003,16,baixo,2.0,2100,Caminhão Truck,98,120
+AAA-1245,atrasado,ROTA_005,18,alto,10.0,2500,Caminhão Baú,135,95
+BBB-3578,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,55
+CCC-5801,em_tempo,ROTA_002,13,baixo,0.0,3400,Van,76,45
+DDD-8134,atrasado,ROTA_001,6,alto,32.0,3800,Caminhão Bitrem,160,85
+EEE-1467,em_tempo,ROTA_003,14,baixo,0.0,2000,Caminhão Truck,102,120
+FFF-3798,em_tempo,ROTA_004,9,baixo,0.0,2800,Van,84,55
+GGG-6023,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Baú,130,95
+HHH-8356,em_tempo,ROTA_002,11,baixo,1.0,2200,Van,88,45
+III-1689,em_tempo,ROTA_001,15,baixo,0.0,2500,Caminhão Truck,95,85
+JJJ-3912,em_tempo,ROTA_003,17,baixo,0.5,1800,Caminhão Baú,115,120
+KKK-6245,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,55
+LLL-9578,em_tempo,ROTA_002,10,baixo,0.0,2600,Van,82,45
+MMM-2801,atrasado,ROTA_001,18,alto,12.0,2100,Caminhão Baú,120,85
+NNN-5134,em_tempo,ROTA_005,12,baixo,0.5,1900,Van,92,95
+OOO-7467,em_tempo,ROTA_004,14,baixo,0.0,3200,Van,78,55
+PPP-9798,atrasado,ROTA_002,6,alto,30.0,3700,Caminhão Bitrem,155,45
+QQQ-2023,em_tempo,ROTA_001,13,baixo,0.0,1900,Caminhão Truck,105,85
+RRR-4356,em_tempo,ROTA_003,10,baixo,2.0,2200,Caminhão Baú,98,120
+SSS-6689,atrasado,ROTA_005,8,alto,18.0,2500,Caminhão Truck,125,95
+TTT-8912,em_tempo,ROTA_004,15,baixo,0.5,2000,Van,88,55
+UUU-1245,em_tempo,ROTA_002,11,baixo,0.0,2800,Caminhão Truck,92,45
+VVV-3578,atrasado,ROTA_001,17,alto,14.0,2300,Caminhão Baú,135,85
+WWW-5801,em_tempo,ROTA_003,16,baixo,0.0,3400,Van,75,120
+XXX-8134,atrasado,ROTA_004,7,alto,28.0,3900,Caminhão Bitrem,165,55
+YYY-1467,em_tempo,ROTA_002,12,baixo,1.0,2100,Van,90,45
+ZZZ-3798,em_tempo,ROTA_001,9,baixo,0.0,2600,Caminhão Baú,100,85
+AAA-6023,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Truck,130,95
+BBB-8356,em_tempo,ROTA_003,13,baixo,0.5,1900,Caminhão Baú,108,120
+CCC-1689,em_tempo,ROTA_004,11,baixo,0.0,3000,Van,85,55
+DDD-3912,atrasado,ROTA_002,6,alto,35.0,2200,Caminhão Truck,140,45
+EEE-6245,em_tempo,ROTA_001,14,baixo,0.0,3200,Van,78,85
+FFF-9578,atrasado,ROTA_005,8,alto,25.0,3700,Caminhão Bitrem,155,95
+GGG-2801,em_tempo,ROTA_004,15,baixo,1.0,2000,Van,92,55
+HHH-5134,atrasado,ROTA_002,7,alto,22.0,2300,Caminhão Baú,128,45
+III-7467,em_tempo,ROTA_001,12,baixo,0.0,2700,Van,88,85
+JJJ-9798,em_tempo,ROTA_003,16,baixo,2.0,2100,Caminhão Truck,98,120
+KKK-2023,atrasado,ROTA_005,18,alto,10.0,2500,Caminhão Baú,135,95
+LLL-4356,em_tempo,ROTA_004,10,baixo,0.5,3100,Van,82,55
+MMM-6689,em_tempo,ROTA_002,13,baixo,0.0,3400,Van,76,45
+NNN-8912,atrasado,ROTA_001,6,alto,32.0,3800,Caminhão Bitrem,160,85
+OOO-1245,em_tempo,ROTA_003,14,baixo,0.0,2000,Caminhão Truck,102,120
+PPP-3578,em_tempo,ROTA_004,9,baixo,0.0,2800,Van,84,55
+QQQ-5801,atrasado,ROTA_005,19,alto,16.0,2400,Caminhão Baú,130,95
+RRR-8134,em_tempo,ROTA_002,11,baixo,1.0,2200,Van,88,45
+SSS-1467,em_tempo,ROTA_001,15,baixo,0.0,2500,Caminhão Truck,95,85
+TTT-3798,em_tempo,ROTA_003,17,baixo,0.5,1800,Caminhão Baú,115,120
+UUU-6023,atrasado,ROTA_004,7,alto,20.0,2400,Caminhão Baú,130,55
+VVV-8356,em_tempo,ROTA_002,10,baixo,0.0,2600,Van,82,45

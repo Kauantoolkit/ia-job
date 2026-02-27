@@ -9,7 +9,7 @@ const PredictionForm = ({ onSubmit, isLoading, isModelTrained }) => {
     cargo_weight_kg: 2000,
     vehicle_type: 'Caminhão Baú',
     historical_avg_route_time_min: 100,
-    historical_delay_rate_route: 0.2,
+    distance_km: 80,
   });
 
   const handleChange = (e) => {
@@ -132,15 +132,13 @@ const PredictionForm = ({ onSubmit, isLoading, isModelTrained }) => {
         </div>
 
         <div className="form-group">
-          <label className="form-label">Taxa Histórica de Atraso da Rota</label>
+          <label className="form-label">Distância (km)</label>
           <input
             type="number"
-            name="historical_delay_rate_route"
+            name="distance_km"
             className="form-input"
             min="0"
-            max="1"
-            step="0.01"
-            value={formData.historical_delay_rate_route}
+            value={formData.distance_km}
             onChange={handleChange}
             required
           />
